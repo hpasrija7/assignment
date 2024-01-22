@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Form Submission</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <img src="FormTask.jpg" alt="Your Image">
+        </div>
+
+        <div class="right-panel">
+            <button type="submit" class="signin-button">Sign In</button>
+            <form id="myForm">
+                <div class="form-header">
+                    <h1 class="blue-text">Explore and Experience</h1>
+                    <h2 class="blue-text">Get on to your most comfortable journey</h2>
+                </div>
+                <div class="name-inputs">
+                    <div class="input-group">
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                </div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+            
+                <button type="submit" class="get-started-button">GET STARTED</button>
+
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
