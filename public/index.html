@@ -9,38 +9,41 @@
 <body>
     <div class="container">
         <div class="left-panel">
-            <img src="FormTask.jpg" alt="Your Image">
+            <img src="FormTaskImage.jpg" alt="Your Image">
         </div>
 
         <div class="right-panel">
-            <button type="submit" class="signin-button">Sign In</button>
+            <button type="submit" class="signin-button">SIGN IN</button>
+            <br/>
+            <br/>
+            <br/>
             <form id="myForm">
                 <div class="form-header">
-                    <h1 class="blue-text">Explore and Experience</h1>
-                    <h2 class="blue-text">Get on to your most comfortable journey</h2>
+                    <h1 class="blue-text">Explore & Experience</h1>
+                    <h4 class="blue-text">Get onto your most comfortable journey yet. All the way up.</h4>
                 </div>
+                <br/>
+                <br/>
                 <div class="name-inputs">
-                    <div class="input-group">
-                        <label for="firstName">First Name:</label>
-                        <input type="text" id="firstName" name="firstName" required>
+                    <div class="input-group-fl">
+                        <input type="text" id="firstName" name="firstName" required placeholder="First Name">
                     </div>
-                    <div class="input-group">
-                        <label for="lastName">Last Name:</label>
-                        <input type="text" id="lastName" name="lastName" required>
+                    <div class="input-group-fl" >
+                        <input type="text" id="lastName" name="lastName" required placeholder="Last Name">
                     </div>
                 </div>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-            
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" required>
-            
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
-            
-                <label for="confirmPassword">Confirm Password:</label>
-                <input type="password" id="confirmPassword" name="confirmPassword" required>
-            
+                <div class="input-group">
+                    <input type="email" id="email" name="email" required placeholder="Email">
+                </div>
+                <div class="input-group">
+                    <input type="text" id="username" name="username" required placeholder="Username">
+                </div>
+                <div class="input-group">
+                    <input type="password" id="password" name="password" required placeholder="Password">
+                </div>
+                <div class="input-group">
+                    <input type="password" id="confirmPassword" name="confirmPassword" required placeholder="Confirm Password">
+                </div>
                 <button type="submit" class="get-started-button">GET STARTED</button>
 
             </form>

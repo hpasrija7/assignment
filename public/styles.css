@@ -25,11 +25,11 @@ body {
 }
 
 .form-header {
-    text-align: center;
+    text-align: left;
 }
 
 .blue-text {
-    color: #007bff;
+    color: rgb(102,85,221);
 }
 
 label {
@@ -40,6 +40,13 @@ label {
 .input-group {
     width: 100%;
     margin-bottom: 16px;
+    border: grey;
+}
+
+.input-group-fl {
+    width: 48%;
+    margin-bottom: 16px;
+    border: grey;
 }
 
 input {
@@ -48,8 +55,8 @@ input {
 }
 
 button.get-started-button {
-    width: calc(100% - 16px); 
-    background-color: #007bff;
+    width: calc(100%); 
+    background-color: rgb(102,85,221);
     color: white;
     padding: 10px;
     border: none;
@@ -60,11 +67,12 @@ button.get-started-button {
 .signin-button {
     float: right;
     margin-top: 16px;
-    background-color: #007bff;
-    color: white;
+    background-color: rgba(255,255,255,1);
+    color: rgb(102,85,221);
     padding: 10px;
-    border: none;
+    border: 2px solid rgba(102,85,221,1);
     cursor: pointer;
+    width: 100px;
 }
 
 .name-inputs {
@@ -75,4 +83,7 @@ button.get-started-button {
 .left-panel img {
     width: 100%; 
     height: auto; 
+}
+.input-group:first-child input {
+    margin-right: 10px; 
 }
